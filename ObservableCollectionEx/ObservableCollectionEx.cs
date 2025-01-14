@@ -121,7 +121,7 @@ namespace System.Collections.ObjectModel
 #if FRAMEWORK
         [field: NonSerialized]
 #endif
-        protected virtual event NotifyCollectionChangedEventHandler CollectionChanged = _emptyDelegate;
+        public virtual event NotifyCollectionChangedEventHandler CollectionChanged = _emptyDelegate;
 
         #endregion Protected Fields
 
